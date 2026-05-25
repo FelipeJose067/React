@@ -1,4 +1,4 @@
-import { ButtonTypes } from "@/app/tipos";
+import { ButtonTypes } from "@/PaginasSalvas/Exercicio Aula 2/tipos";
 
 export default function Button ({titulo, subtitulo, classname, tipo, funcao}: ButtonTypes){
     let html 

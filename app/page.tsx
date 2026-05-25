@@ -1,21 +1,9 @@
-"use client"
-
-import Button from "./button"
-
-
-
-export default function Home() {
-
-    function helloWorld(nome:string){
-    alert(`Olá ${nome}, Seja Bem Vindo ao Site !`)
-    }
-  
-    return (
+export default function Home(){
+    return(
         <>
-            <Button funcao={() => helloWorld ("primario")} tipo="primario" titulo="Salvar"/>
-            <Button funcao={() => helloWorld ("secundario")} tipo="secundario" titulo="Salvar"/>
-            <Button funcao={() => helloWorld ("sucesso")} tipo="sucesso" titulo="Salvar"/>
-            <Button funcao={() => helloWorld ("perigo")} tipo="perigo" titulo="Salvar"/>
+        <div className="flex itens">
+            <p>Bem vindo ao sistema, esse pedaço veio do children</p>
+        </div>
         </>
     )
 }
